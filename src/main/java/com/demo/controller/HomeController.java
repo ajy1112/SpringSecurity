@@ -19,6 +19,7 @@ public class HomeController {
 	private UserService userService;
 	@GetMapping("/home")
 	public String HomePage() {
+		int a=10;
 		return "Home";
 	}
 	@GetMapping("/user")
